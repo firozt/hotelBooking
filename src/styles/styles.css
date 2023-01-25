@@ -1,0 +1,80 @@
+@import url(./reset.css);
+
+
+/* a{
+    border: 1px solid black;
+} */
+
+header {
+    background-color: rgb(106, 78, 232);
+    margin-bottom: 30px;
+}
+header h1{
+    text-align: center;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    font-weight: bold;
+    font-size: 60px;
+    color:whitesmoke;
+}
+
+
+header ul li {
+    font-size: 20px;
+}
+
+.center {
+    margin: auto;
+    width: 325px;
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(231, 231, 231);
+}
+
+.navbar {
+    background-color: rgb(106, 78, 232) !important;
+}
+
+
+
+/* navbar elements */
+/* .navbar>nav {
+
+} */
+
+.link:hover {
+    background-color: rgb(189, 177, 244);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: scale(1.2);
+    transition: transform .2s;
+    
+}
+
+#welcome {
+    padding-left: 30px;
+}
+
+form div input{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form option{
+    border-radius: 0px !important; 
+}
+
+
+form {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+form>input {
+    padding: 10px;
+    border-radius: 0px;
+    border: 1px solid rgb(135, 135, 135);
+    width: 100%;
+}
